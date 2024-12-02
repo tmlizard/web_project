@@ -1,0 +1,65 @@
+h1{ 
+	color:darkolivegreen;
+	text-align: center;
+	font-size: 40px;
+	font-family: EB Garamond;
+}
+
+body{
+	background-image: url(media/green_wallpaper.jpg);
+	font-size: 20px;
+	font-family:Andale Mono;
+	text-align: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	line-height: 35px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	top:0;
+	background-color: white;
+	text-align: center;
+}
+
+li{
+	float:left;
+	text-align: center;
+}
+
+li a{
+	float: left;
+	text-align: center;
+	margin: 10px;
+	padding: 20px;
+	color: darkolivegreen;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+li a:hover{
+	color:darkolivegreen;
+	background-color: #d7eddd;
+	text-align: center;
+}
+
+div.section{
+	display: inline-block;
+	background-color: #d7eddd;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
